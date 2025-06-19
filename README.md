@@ -66,7 +66,7 @@ A modern, feature-rich task management application built with the MERN stack. Ta
 
    ```bash
    git clone <repository-url>
-   cd Taskflow
+   cd TaskFlow
    ```
 
 2. **Install dependencies**
@@ -117,7 +117,7 @@ A modern, feature-rich task management application built with the MERN stack. Ta
 ## 📁 Project Structure
 
 ```
-taskflow/
+TaskFlow/
 ├── backend/
 │   ├── middleware/
 │   │   ├── auth.js          # JWT authentication middleware
@@ -196,20 +196,6 @@ The application uses React Context API for state management:
 - **AuthContext**: Manages user authentication state and methods
 - **TaskContext**: Handles task data, CRUD operations, and filtering
 
-## 🧪 Testing
-
-### Running Tests
-
-```bash
-# Backend tests
-cd backend
-npm test
-
-# Frontend tests
-cd frontend
-npm test
-```
-
 ## 📈 Performance Optimizations
 
 - **Code Splitting**: React lazy loading for route components
@@ -217,25 +203,6 @@ npm test
 - **Optimized Images**: Properly sized and compressed images
 - **Database Indexing**: MongoDB indexes for efficient queries
 - **Request Optimization**: Debounced search and filtering
-
-## 🚀 Deployment
-
-### Frontend (Netlify/Vercel)
-
-1. Build the frontend: `npm run build`
-2. Deploy the `dist` folder to your hosting provider
-
-### Backend (Heroku/Railway)
-
-1. Set environment variables in your hosting platform
-2. Deploy the backend directory
-3. Update frontend API URLs to point to production backend
-
-### Database (MongoDB Atlas)
-
-1. Create a MongoDB Atlas cluster
-2. Update `MONGODB_URI` in your environment variables
-3. Whitelist your deployment IP addresses
 
 ## 🤝 Contributing
 
