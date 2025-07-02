@@ -216,10 +216,6 @@ The application uses React Context API for state management:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Support
-
-If you have any questions or run into issues, please open an issue on GitHub or contact the development team.
-
 ---
 
 Made with ❤️ by the TaskFlow Team
